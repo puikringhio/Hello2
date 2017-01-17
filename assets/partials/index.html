@@ -29,7 +29,6 @@
             </button>
             <ul>
                 <a class="navbar-brand" href="../"> Contacts Manager </a>
-                <a class="navbar-brand" href="jsonShow.html"> Json </a>
             </ul>
         </div>
         
@@ -37,8 +36,8 @@
         preposta a risponere alla chiamata dell'utente perché taggata come #nav-toggle sopra -->
         <div class="collapse navbar-collapse" id="nav-toggle">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="../">Browse</a></li>
-                <li><a href="../"> Add Contact</a></li>
+                <li class="active"><a href="contact/1">Browse</a></li>
+                <li><a href="add-contact"> Add Contact</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
                 <input type="text" class="form-control" palceholder="Search">
@@ -50,10 +49,11 @@
     
     <div class="page-header">
             <h1>All contacts</h1>
-        </div>
+    </div>
         
-        <div class="table-responsive table-bordered table-striped">
-            <table>
+    <div class="container">
+        <div class="table-bordered">
+            <table class="table-responsiveg table-striped">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -73,10 +73,23 @@
                         <td>Declan Proud</td>
                         <td>declan@example.com</td>
                         <td>01234 567890</td>
-                        <td><a href=”#” class="btn btn-default btn-xs">View</a></td>
+                        <td><a href=”#” class="btn btn-primary btn-xs">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Karan Bromwich</td>
+                        <td>karan@example.com</td>
+                        <td>01234 56734</td>
+                        <td><a href=”#” class="btn btn-warning btn-sm">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Declan Proud</td>
+                        <td>declan@example.com</td>
+                        <td>01234 567890</td>
+                        <td><a href=”#” class="btn btn-danger btn-lg">View</a></td>
                     </tr>
                 </tbody>
             </table>
+        </div>
     </div>
     
     
